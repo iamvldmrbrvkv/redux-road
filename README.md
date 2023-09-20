@@ -1,5 +1,5 @@
 # redux-road
-Codeacademy's JavaScript project using [Redux’s](https://redux.js.org/) core concepts.
+[Codecademy's](https://www.codecademy.com/learn) JavaScript project using [Redux’s](https://redux.js.org/) core concepts.
 
 ## Redux Road
 Now that we have a solid understanding of Redux’s core concepts, it’s time to put them into practice.
