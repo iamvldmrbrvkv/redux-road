@@ -12,6 +12,7 @@ By completing this project, you’ll practice your skills in:
 - Redux usage pattern
 - Immutable state updates
 - Defining and using actions
+
 Let’s get started!
 
 ## Tasks
