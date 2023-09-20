@@ -38,6 +38,7 @@ If the action.type is 'gather', return a new state object with:
 - 15 more supplies
 - The same distance
 - 1 more day
+
 Make sure to return a new object to comply with the three rules of reducers.
 
 5. A player may travel for any number of days, which costs 20 supplies for each day but adds 10 kilometers each day.
@@ -70,6 +71,7 @@ Our initial wagon state should look like this:
 - Call the reducer with the wagon state and an action with type: 'travel' and payload: 1.
 - Store the returned new state back into wagon.
 - Print the new state.
+
 Our wagon state should look like this:
 
 `{ supplies: 80, distance: 10, days: 1 }`
@@ -79,6 +81,7 @@ Our wagon state should look like this:
 - Call the reducer with the new wagon state and an action with type: 'gather' and no payload.
 - Store the new state back into wagon.
 - Print the new state.
+
 Our wagon state should look like this:
 
 `{ supplies: 95, distance: 10, days: 2 }`
@@ -88,6 +91,7 @@ Our wagon state should look like this:
 - Call the reducer with the new wagon state and an action with type: 'tippedWagon'.
 - Store the new state back into wagon
 - Print the new state.
+
 Our wagon state should look like this:
 
 `{ supplies: 65, distance: 10, days: 3 }`
@@ -97,6 +101,7 @@ Our wagon state should look like this:
 - Call the reducer with the new wagon state and an action with type: 'travel' and a payload: 3.
 - Store the new state back into wagon.
 - Print the new state.
+
 Our final wagon state should look like this:
 
 `{ supplies: 5, distance: 40, days: 6 }`
